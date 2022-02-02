@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Mainteny Login Test Suite,,,,2022-02-02 23:10:21,2022-02-02 23:10:26,5.621s,ERROR
+,,,,,,,
+Test Cases/01. Validate the Login functionality with Valid test data,,,,2022-02-02 23:10:23,2022-02-02 23:10:23,0.104s,ERROR
+openBrowser(URL),,,,2022-02-02 23:10:23,2022-02-02 23:10:23,0.024s,ERROR
+,,,,,,,
+Test Cases/02. Validate the Login functionality with Invalid User name,,,,2022-02-02 23:10:25,2022-02-02 23:10:25,0.043s,ERROR
+openBrowser(URL),,,,2022-02-02 23:10:25,2022-02-02 23:10:25,0.006s,ERROR
+,,,,,,,
+Test Cases/03. Validate the Login functionality with Invalid Password,,,,2022-02-02 23:10:26,2022-02-02 23:10:26,0.233s,ERROR
+openBrowser(URL),,,,2022-02-02 23:10:26,2022-02-02 23:10:26,0.005s,ERROR
