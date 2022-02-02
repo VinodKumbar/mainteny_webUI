@@ -1,0 +1,59 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "mainteny-login-page;title-of-your-scenario-outline",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8953403100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I want login to Mainteny Website",
+            "match": {
+              "location": "login.loginURL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3396966700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the valid user name \u0026  password click on the Login button",
+            "match": {
+              "location": "login.loginCreds()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6269876800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I will be navigated to Mainteny Dashboard page",
+            "match": {
+              "location": "login.dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Mainteny Login page",
+    "description": "",
+    "id": "mainteny-login-page",
+    "keyword": "Feature",
+    "uri": "Include/features/sample_login_positive_scenario.feature",
+    "tags": []
+  }
+]
