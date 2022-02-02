@@ -1,0 +1,64 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. openBrowser(URL)
+
+2
+00:00:00,000 --> 00:00:00,000
+5. maximizeWindow()
+
+3
+00:00:00,000 --> 00:00:00,000
+9. deleteAllCookies()
+
+4
+00:00:00,000 --> 00:00:00,000
+13. waitForElementPresent(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/svg"), 2)
+
+5
+00:00:00,000 --> 00:00:00,000
+17. setText(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/input_Enter your email_username"), Valid_Username)
+
+6
+00:00:00,000 --> 00:00:00,000
+21. setEncryptedText(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/input_Enter your password_password"), Valid_Password)
+
+7
+00:00:00,000 --> 00:00:00,000
+25. verifyElementClickable(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/button_Login"))
+
+8
+00:00:00,000 --> 00:00:00,000
+29. click(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/button_Login"))
+
+9
+00:00:00,000 --> 00:00:00,000
+33. verifyElementText(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/span_Dashboard"), "Dashboard")
+
+10
+00:00:00,000 --> 00:00:00,000
+37. verifyElementText(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/div_Martin Lundquist"), "Martin Lundquist")
+
+11
+00:00:00,000 --> 00:00:00,000
+41. verifyElementClickable(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/div_ML"))
+
+12
+00:00:00,000 --> 00:00:00,000
+45. click(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/div_ML"))
+
+13
+00:00:00,000 --> 00:00:00,000
+49. click(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/span_Logout"))
+
+14
+00:00:00,000 --> 00:00:00,000
+53. navigateToUrl("https://staging.mainteny.com/auth/login")
+
+15
+00:00:00,000 --> 00:00:00,000
+57. verifyElementText(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/div_Login"), "Login")
+
+16
+00:00:00,000 --> 00:00:00,000
+61. closeBrowser()
+

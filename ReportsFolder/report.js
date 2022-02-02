@@ -5,7 +5,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Title of your scenario outline",
+  "name": "Verify the Login page with Valid Credentials",
   "description": "",
   "keyword": "Scenario"
 });

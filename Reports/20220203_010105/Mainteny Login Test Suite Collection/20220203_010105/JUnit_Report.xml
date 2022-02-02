@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mainteny Login Test Suite Collection" time="109.993" tests="3" failures="1" errors="0">
+   <testsuite name="Mainteny Login Test Suite" tests="3" failures="1" errors="0" time="88.454" skipped="0" timestamp="2022-02-03 01:01:19" hostname="OM - LAPTOP-6THEUBBE" id="Test Suites/Mainteny Login Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\OM\\OneDrive\\Desktop\\mainteny_webUI\\Reports\\20220203_010105\\Mainteny Login Test Suite\\20220203_010106"/>
+         <property name="logFiles" value="C:\\Users\\OM\\OneDrive\\Desktop\\mainteny_webUI\\Reports\\20220203_010105\\Mainteny Login Test Suite\\20220203_010106\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\OM\\OneDrive\\Desktop\\mainteny_webUI\\Reports\\20220203_010105\\Mainteny Login Test Suite\\20220203_010106\\1643830331338.png, C:\\Users\\OM\\OneDrive\\Desktop\\mainteny_webUI\\Reports\\20220203_010105\\Mainteny Login Test Suite\\20220203_010106\\1643830331605.png, C:\\Users\\OM\\OneDrive\\Desktop\\mainteny_webUI\\Reports\\20220203_010105\\Mainteny Login Test Suite\\20220203_010106\\1643830344828.png, C:\\Users\\OM\\OneDrive\\Desktop\\mainteny_webUI\\Reports\\20220203_010105\\Mainteny Login Test Suite\\20220203_010106\\1643830344983.png, C:\\Users\\OM\\OneDrive\\Desktop\\mainteny_webUI\\Reports\\20220203_010105\\Mainteny Login Test Suite\\20220203_010106\\1643830356204.png, C:\\Users\\OM\\OneDrive\\Desktop\\mainteny_webUI\\Reports\\20220203_010105\\Mainteny Login Test Suite\\20220203_010106\\1643830356366.png, C:\\Users\\OM\\OneDrive\\Desktop\\mainteny_webUI\\Reports\\20220203_010105\\Mainteny Login Test Suite\\20220203_010106\\1643830367148.png, C:\\Users\\OM\\OneDrive\\Desktop\\mainteny_webUI\\Reports\\20220203_010105\\Mainteny Login Test Suite\\20220203_010106\\1643830367285.png"/>
+         <property name="hostName" value="OM - LAPTOP-6THEUBBE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.99"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="2f5e5f6d42a6bf70bf16b08c46f1e120"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/01. Validate the Login functionality with Valid test data" time="27.237" classname="Test Cases/01. Validate the Login functionality with Valid test data" status="PASSED">
+         <system-out><![CDATA[2022-02-03 01:01:20 - [TEST_CASE][PASSED] - Test Cases/01. Validate the Login functionality with Valid test data: Test Cases/01. Validate the Login functionality with Valid test data
+
+2022-02-03 01:01:22 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://staging.mainteny.com/auth/login'
+
+2022-02-03 01:01:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-03 01:01:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-03 01:01:32 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2022-02-03 01:01:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://staging.mainteny.com/auth/login'
+
+2022-02-03 01:01:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-02-03 01:01:35 - [MESSAGE][PASSED] - Current window maximized
+
+2022-02-03 01:01:36 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2022-02-03 01:01:36 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2022-02-03 01:01:36 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/svg"), 2): Object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/svg' is present
+
+2022-02-03 01:01:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/svg' is present
+
+2022-02-03 01:01:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/input_Enter your email_username"), Valid_Username): Text 'engineering@mainteny.com' is set on object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/input_Enter your email_username'
+
+2022-02-03 01:01:38 - [MESSAGE][PASSED] - Text 'engineering@mainteny.com' is set on object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/input_Enter your email_username'
+
+2022-02-03 01:01:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/input_Enter your password_password"), Valid_Password): Text ****** has been set on object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/input_Enter your password_password'
+
+2022-02-03 01:01:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/input_Enter your password_password'
+
+2022-02-03 01:01:38 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/button_Login")): Object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/button_Login' is clickable
+
+2022-02-03 01:01:39 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/button_Login' is clickable
+
+2022-02-03 01:01:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/button_Login")): Object: 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/button_Login' is clicked on
+
+2022-02-03 01:01:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/button_Login' is clicked on
+
+2022-02-03 01:01:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/span_Dashboard"), "Dashboard"): Actual text and expected text of test object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/span_Dashboard' are matched.
+
+2022-02-03 01:01:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/span_Dashboard' are matched.
+
+2022-02-03 01:01:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/div_Martin Lundquist"), "Martin Lundquist"): Actual text and expected text of test object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/div_Martin Lundquist' are matched.
+
+2022-02-03 01:01:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/div_Martin Lundquist' are matched.
+
+2022-02-03 01:01:42 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/div_ML")): Object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/div_ML' is clickable
+
+2022-02-03 01:01:43 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/div_ML' is clickable
+
+2022-02-03 01:01:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/div_ML")): Object: 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/div_ML' is clicked on
+
+2022-02-03 01:01:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/div_ML' is clicked on
+
+2022-02-03 01:01:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/span_Logout")): Object: 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/span_Logout' is clicked on
+
+2022-02-03 01:01:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/span_Logout' is clicked on
+
+2022-02-03 01:01:44 - [TEST_STEP][PASSED] - navigateToUrl("https://staging.mainteny.com/auth/login"): Navigate to 'https://staging.mainteny.com/auth/login' successfully
+
+2022-02-03 01:01:45 - [MESSAGE][PASSED] - Navigate to 'https://staging.mainteny.com/auth/login' successfully
+
+2022-02-03 01:01:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/div_Login"), "Login"): Actual text and expected text of test object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/div_Login' are matched.
+
+2022-02-03 01:01:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/div_Login' are matched.
+
+2022-02-03 01:01:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-03 01:01:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02. Validate the Login functionality with Invalid User name" time="12.725" classname="Test Cases/02. Validate the Login functionality with Invalid User name" status="PASSED">
+         <system-out><![CDATA[2022-02-03 01:01:47 - [TEST_CASE][PASSED] - Test Cases/02. Validate the Login functionality with Invalid User name: Test Cases/02. Validate the Login functionality with Invalid User name
+
+2022-02-03 01:01:48 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://staging.mainteny.com/auth/login'
+
+2022-02-03 01:01:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-03 01:01:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-03 01:01:51 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2022-02-03 01:01:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://staging.mainteny.com/auth/login'
+
+2022-02-03 01:01:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-02-03 01:01:54 - [MESSAGE][PASSED] - Current window maximized
+
+2022-02-03 01:01:54 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2022-02-03 01:01:54 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2022-02-03 01:01:54 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/svg"), 2): Object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/svg' is present
+
+2022-02-03 01:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/svg' is present
+
+2022-02-03 01:01:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/input_Enter your email_username"), Invalid_Username): Text 'vnkumbar@gmail.com' is set on object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/input_Enter your email_username'
+
+2022-02-03 01:01:56 - [MESSAGE][PASSED] - Text 'vnkumbar@gmail.com' is set on object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/input_Enter your email_username'
+
+2022-02-03 01:01:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/input_Enter your password_password"), Valid_Password): Text ****** has been set on object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/input_Enter your password_password'
+
+2022-02-03 01:01:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/input_Enter your password_password'
+
+2022-02-03 01:01:57 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/button_Login")): Object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/button_Login' is clickable
+
+2022-02-03 01:01:57 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/button_Login' is clickable
+
+2022-02-03 01:01:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/button_Login")): Object: 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/button_Login' is clicked on
+
+2022-02-03 01:01:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/button_Login' is clicked on
+
+2022-02-03 01:01:58 - [TEST_STEP][PASSED] - error_Message = getText(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password"), STOP_ON_FAILURE): Text of object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password' is: 'Bad username or password'
+
+2022-02-03 01:01:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password' is: 'Bad username or password'
+
+2022-02-03 01:01:59 - [TEST_STEP][PASSED] - println(error_Message): null
+
+2022-02-03 01:01:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-03 01:02:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/03. Validate the Login functionality with Invalid Password" time="10.918" classname="Test Cases/03. Validate the Login functionality with Invalid Password" status="FAILED">
+         <failure type="FAILED" message="Test Cases/03. Validate the Login functionality with Invalid Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at 03. Validate the Login functionality with Invalid Password.run(03. Validate the Login functionality with Invalid Password:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643830266785.run(TempTestSuite1643830266785.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Bad username or password' and expected text 'captured failed test step screenshot' of test object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2022-02-03 01:02:36 - [TEST_CASE][FAILED] - Test Cases/03. Validate the Login functionality with Invalid Password: Test Cases/03. Validate the Login functionality with Invalid Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at 03. Validate the Login functionality with Invalid Password.run(03. Validate the Login functionality with Invalid Password:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643830266785.run(TempTestSuite1643830266785.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Bad username or password' and expected text 'captured failed test step screenshot' of test object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2022-02-03 01:02:36 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://staging.mainteny.com/auth/login'
+
+2022-02-03 01:02:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-02-03 01:02:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-03 01:02:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-03 01:02:39 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2022-02-03 01:02:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://staging.mainteny.com/auth/login'
+
+2022-02-03 01:02:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-02-03 01:02:41 - [MESSAGE][PASSED] - Current window maximized
+
+2022-02-03 01:02:41 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2022-02-03 01:02:41 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2022-02-03 01:02:41 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/svg"), 2): Object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/svg' is present
+
+2022-02-03 01:02:42 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/svg' is present
+
+2022-02-03 01:02:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/input_Enter your email_username"), Valid_Username): Text 'engineering@mainteny.com' is set on object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/input_Enter your email_username'
+
+2022-02-03 01:02:43 - [MESSAGE][PASSED] - Text 'engineering@mainteny.com' is set on object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/input_Enter your email_username'
+
+2022-02-03 01:02:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/input_Enter your password_password"), Invalid_Password): Text '123456' is set on object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/input_Enter your password_password'
+
+2022-02-03 01:02:44 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/input_Enter your password_password'
+
+2022-02-03 01:02:44 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/button_Login")): Object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/button_Login' is clickable
+
+2022-02-03 01:02:44 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/button_Login' is clickable
+
+2022-02-03 01:02:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/button_Login")): Object: 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/button_Login' is clicked on
+
+2022-02-03 01:02:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/button_Login' is clicked on
+
+2022-02-03 01:02:45 - [TEST_STEP][PASSED] - error_Message = getText(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password"), STOP_ON_FAILURE): Text of object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password' is: 'Bad username or password'
+
+2022-02-03 01:02:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password' is: 'Bad username or password'
+
+2022-02-03 01:02:46 - [TEST_STEP][PASSED] - println(error_Message): null
+
+2022-02-03 01:02:46 - [TEST_STEP][PASSED] - comment("to give demo on capture screenshot when test case get fail, delibrtely failing test step"): to give demo on capture screenshot when test case get fail, delibrtely failing test step
+
+2022-02-03 01:02:46 - [MESSAGE][INFO] - to give demo on capture screenshot when test case get fail, delibrtely failing test step
+
+2022-02-03 01:02:46 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password"), "captured failed test step screenshot"): Verify element text of test object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at 03. Validate the Login functionality with Invalid Password.run(03. Validate the Login functionality with Invalid Password:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643830266785.run(TempTestSuite1643830266785.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Bad username or password' and expected text 'captured failed test step screenshot' of test object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+
+2022-02-03 01:02:47 - [MESSAGE][FAILED] - Actual text 'Bad username or password' and expected text 'captured failed test step screenshot' of test object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Bad username or password' and expected text 'captured failed test step screenshot' of test object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at 03. Validate the Login functionality with Invalid Password.run(03. Validate the Login functionality with Invalid Password:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643830266785.run(TempTestSuite1643830266785.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\OM\\OneDrive\\Desktop\\mainteny_webUI\\Reports\\20220203_010105\\Mainteny Login Test Suite\\20220203_010106\\1643830367148.png]]
+
+2022-02-03 01:02:47 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at 03. Validate the Login functionality with Invalid Password.run(03. Validate the Login functionality with Invalid Password:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643830266785.run(TempTestSuite1643830266785.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Bad username or password' and expected text 'captured failed test step screenshot' of test object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+[[ATTACHMENT|C:\\Users\\OM\\OneDrive\\Desktop\\mainteny_webUI\\Reports\\20220203_010105\\Mainteny Login Test Suite\\20220203_010106\\1643830367285.png]]]]></system-out>
+         <system-err><![CDATA[2022-02-03 01:02:36 - [TEST_CASE][FAILED] - Test Cases/03. Validate the Login functionality with Invalid Password: Test Cases/03. Validate the Login functionality with Invalid Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at 03. Validate the Login functionality with Invalid Password.run(03. Validate the Login functionality with Invalid Password:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643830266785.run(TempTestSuite1643830266785.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Bad username or password' and expected text 'captured failed test step screenshot' of test object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-03 01:01:19 - [TEST_SUITE][FAILED] - Mainteny Login Test Suite: Test Cases/03. Validate the Login functionality with Invalid Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at 03. Validate the Login functionality with Invalid Password.run(03. Validate the Login functionality with Invalid Password:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643830266785.run(TempTestSuite1643830266785.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Bad username or password' and expected text 'captured failed test step screenshot' of test object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-02-03 01:01:19 - [TEST_SUITE][FAILED] - Mainteny Login Test Suite: Test Cases/03. Validate the Login functionality with Invalid Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at 03. Validate the Login functionality with Invalid Password.run(03. Validate the Login functionality with Invalid Password:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643830266785.run(TempTestSuite1643830266785.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Bad username or password' and expected text 'captured failed test step screenshot' of test object 'Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

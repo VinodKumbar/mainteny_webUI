@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Mainteny Login Test Suite,Chrome 97.0.4692.99,,,2022-02-03 01:01:19,2022-02-03 01:02:47,1m - 28.454s,FAILED
+,,,,,,,
+Test Cases/01. Validate the Login functionality with Valid test data,Chrome 97.0.4692.99,,,2022-02-03 01:01:20,2022-02-03 01:01:47,27.237s,PASSED
+openBrowser(URL),Chrome 97.0.4692.99,,,2022-02-03 01:01:22,2022-02-03 01:01:35,12.726s,PASSED
+maximizeWindow(),Chrome 97.0.4692.99,,,2022-02-03 01:01:35,2022-02-03 01:01:36,0.570s,PASSED
+deleteAllCookies(),Chrome 97.0.4692.99,,,2022-02-03 01:01:36,2022-02-03 01:01:36,0.111s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/svg""), 2)",Chrome 97.0.4692.99,,,2022-02-03 01:01:36,2022-02-03 01:01:36,0.773s,PASSED
+"setText(findTestObject(""Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/input_Enter your email_username""), Valid_Username)",Chrome 97.0.4692.99,,,2022-02-03 01:01:36,2022-02-03 01:01:38,1.176s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/input_Enter your password_password""), Valid_Password)",Chrome 97.0.4692.99,,,2022-02-03 01:01:38,2022-02-03 01:01:38,0.851s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/button_Login""))",Chrome 97.0.4692.99,,,2022-02-03 01:01:38,2022-02-03 01:01:39,0.584s,PASSED
+"click(findTestObject(""Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/button_Login""))",Chrome 97.0.4692.99,,,2022-02-03 01:01:39,2022-02-03 01:01:40,0.572s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/span_Dashboard""), ""Dashboard"")",Chrome 97.0.4692.99,,,2022-02-03 01:01:40,2022-02-03 01:01:42,2.321s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/div_Martin Lundquist""), ""Martin Lundquist"")",Chrome 97.0.4692.99,,,2022-02-03 01:01:42,2022-02-03 01:01:42,0.451s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/div_ML""))",Chrome 97.0.4692.99,,,2022-02-03 01:01:42,2022-02-03 01:01:43,0.437s,PASSED
+"click(findTestObject(""Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/div_ML""))",Chrome 97.0.4692.99,,,2022-02-03 01:01:43,2022-02-03 01:01:43,0.544s,PASSED
+"click(findTestObject(""Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/span_Logout""))",Chrome 97.0.4692.99,,,2022-02-03 01:01:43,2022-02-03 01:01:44,0.692s,PASSED
+"navigateToUrl(""https://staging.mainteny.com/auth/login"")",Chrome 97.0.4692.99,,,2022-02-03 01:01:44,2022-02-03 01:01:45,1.256s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login Page/Page_Mainteny - Service Manager Portal/Page_Mainteny - Service Manager Portal/div_Login""), ""Login"")",Chrome 97.0.4692.99,,,2022-02-03 01:01:45,2022-02-03 01:01:46,0.980s,PASSED
+closeBrowser(),Chrome 97.0.4692.99,,,2022-02-03 01:01:46,2022-02-03 01:01:47,0.925s,PASSED
+,,,,,,,
+Test Cases/02. Validate the Login functionality with Invalid User name,Chrome 97.0.4692.99,,,2022-02-03 01:01:47,2022-02-03 01:02:00,12.725s,PASSED
+openBrowser(URL),Chrome 97.0.4692.99,,,2022-02-03 01:01:48,2022-02-03 01:01:54,5.649s,PASSED
+maximizeWindow(),Chrome 97.0.4692.99,,,2022-02-03 01:01:54,2022-02-03 01:01:54,0.381s,PASSED
+deleteAllCookies(),Chrome 97.0.4692.99,,,2022-02-03 01:01:54,2022-02-03 01:01:54,0.059s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Login Page/Page_Mainteny - Service Manager Portal/svg""), 2)",Chrome 97.0.4692.99,,,2022-02-03 01:01:54,2022-02-03 01:01:55,0.584s,PASSED
+"setText(findTestObject(""Object Repository/Login Page/Page_Mainteny - Service Manager Portal/input_Enter your email_username""), Invalid_Username)",Chrome 97.0.4692.99,,,2022-02-03 01:01:55,2022-02-03 01:01:56,1.410s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login Page/Page_Mainteny - Service Manager Portal/input_Enter your password_password""), Valid_Password)",Chrome 97.0.4692.99,,,2022-02-03 01:01:56,2022-02-03 01:01:57,0.746s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Login Page/Page_Mainteny - Service Manager Portal/button_Login""))",Chrome 97.0.4692.99,,,2022-02-03 01:01:57,2022-02-03 01:01:57,0.504s,PASSED
+"click(findTestObject(""Object Repository/Login Page/Page_Mainteny - Service Manager Portal/button_Login""))",Chrome 97.0.4692.99,,,2022-02-03 01:01:57,2022-02-03 01:01:58,0.581s,PASSED
+"error_Message = getText(findTestObject(""Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password""), STOP_ON_FAILURE)",Chrome 97.0.4692.99,,,2022-02-03 01:01:58,2022-02-03 01:01:59,1.028s,PASSED
+println(error_Message),Chrome 97.0.4692.99,,,2022-02-03 01:01:59,2022-02-03 01:01:59,0.010s,PASSED
+closeBrowser(),Chrome 97.0.4692.99,,,2022-02-03 01:01:59,2022-02-03 01:02:00,1.001s,PASSED
+,,,,,,,
+Test Cases/03. Validate the Login functionality with Invalid Password,Chrome 97.0.4692.99,,,2022-02-03 01:02:36,2022-02-03 01:02:47,10.918s,FAILED
+openBrowser(URL),Chrome 97.0.4692.99,,,2022-02-03 01:02:36,2022-02-03 01:02:41,4.861s,PASSED
+maximizeWindow(),Chrome 97.0.4692.99,,,2022-02-03 01:02:41,2022-02-03 01:02:41,0.375s,PASSED
+deleteAllCookies(),Chrome 97.0.4692.99,,,2022-02-03 01:02:41,2022-02-03 01:02:41,0.087s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Login Page/Page_Mainteny - Service Manager Portal/svg""), 2)",Chrome 97.0.4692.99,,,2022-02-03 01:02:41,2022-02-03 01:02:42,0.503s,PASSED
+"setText(findTestObject(""Object Repository/Login Page/Page_Mainteny - Service Manager Portal/input_Enter your email_username""), Valid_Username)",Chrome 97.0.4692.99,,,2022-02-03 01:02:42,2022-02-03 01:02:43,0.966s,PASSED
+"setText(findTestObject(""Object Repository/Login Page/Page_Mainteny - Service Manager Portal/input_Enter your password_password""), Invalid_Password)",Chrome 97.0.4692.99,,,2022-02-03 01:02:43,2022-02-03 01:02:44,0.928s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Login Page/Page_Mainteny - Service Manager Portal/button_Login""))",Chrome 97.0.4692.99,,,2022-02-03 01:02:44,2022-02-03 01:02:44,0.614s,PASSED
+"click(findTestObject(""Object Repository/Login Page/Page_Mainteny - Service Manager Portal/button_Login""))",Chrome 97.0.4692.99,,,2022-02-03 01:02:44,2022-02-03 01:02:45,0.509s,PASSED
+"error_Message = getText(findTestObject(""Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password""), STOP_ON_FAILURE)",Chrome 97.0.4692.99,,,2022-02-03 01:02:45,2022-02-03 01:02:46,1.332s,PASSED
+println(error_Message),Chrome 97.0.4692.99,,,2022-02-03 01:02:46,2022-02-03 01:02:46,0.002s,PASSED
+"comment(""to give demo on capture screenshot when test case get fail, delibrtely failing test step"")",Chrome 97.0.4692.99,,,2022-02-03 01:02:46,2022-02-03 01:02:46,0.004s,PASSED
+"verifyElementText(findTestObject(""Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password""), ""captured failed test step screenshot"")",Chrome 97.0.4692.99,,,2022-02-03 01:02:46,2022-02-03 01:02:47,0.705s,FAILED

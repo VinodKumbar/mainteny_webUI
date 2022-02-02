@@ -4,15 +4,15 @@
     "elements": [
       {
         "line": 3,
-        "name": "Title of your scenario outline",
+        "name": "Verify the Login page with Valid Credentials",
         "description": "",
-        "id": "mainteny-login-page;title-of-your-scenario-outline",
+        "id": "mainteny-login-page;verify-the-login-page-with-valid-credentials",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 8953403100,
+              "duration": 16507739199,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 3396966700,
+              "duration": 4090861700,
               "status": "passed"
             },
             "line": 5,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 6269876800,
+              "duration": 6893647000,
               "status": "passed"
             },
             "line": 6,

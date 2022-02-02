@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. openBrowser(URL)
+
+2
+00:00:00,000 --> 00:00:00,000
+5. maximizeWindow()
+
+3
+00:00:00,000 --> 00:00:00,000
+9. deleteAllCookies()
+
+4
+00:00:00,000 --> 00:00:00,000
+13. waitForElementPresent(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/svg"), 2)
+
+5
+00:00:00,000 --> 00:00:00,000
+17. setText(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/input_Enter your email_username"), Valid_Username)
+
+6
+00:00:00,000 --> 00:00:00,000
+21. setText(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/input_Enter your password_password"), Invalid_Password)
+
+7
+00:00:00,000 --> 00:00:00,000
+25. verifyElementClickable(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/button_Login"))
+
+8
+00:00:00,000 --> 00:00:00,000
+29. click(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/button_Login"))
+
+9
+00:00:00,000 --> 00:00:00,000
+33. error_Message = getText(findTestObject("Object Repository/Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password"), STOP_ON_FAILURE)
+
+10
+00:00:00,000 --> 00:00:00,000
+37. println(error_Message)
+
+11
+00:00:00,000 --> 00:00:00,000
+41. comment("to give demo on capture screenshot when test case get fail, delibrtely failing test step")
+
+12
+00:00:00,000 --> 00:00:00,000
+45. verifyElementText(findTestObject("Login Page/Page_Mainteny - Service Manager Portal/div_Bad username or password"), "captured failed test step screenshot")
+
